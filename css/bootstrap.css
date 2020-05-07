@@ -6564,3 +6564,36 @@ button.close {
   }
 }
 /*# sourceMappingURL=bootstrap.css.map */
+
+
+.containersix {
+  padding-top: 10px;
+  padding-bottom: 0px;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+@media (min-width: 768px) {
+  .containersix {
+    width: 750px;
+  }
+}
+@media (min-width: 992px) {
+  .containersix {
+    width: 970px;
+  }
+}
+@media (min-width: 1200px) {
+  .containersix {
+    width: 1170px;
+  }
+}
+.containersix-fluid {
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
