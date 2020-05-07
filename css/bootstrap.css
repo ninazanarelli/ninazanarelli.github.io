@@ -6566,30 +6566,3 @@ button.close {
 /*# sourceMappingURL=bootstrap.css.map */
 
 
-.containersix {
-  padding-right: 15px;
-  padding-left: 15px;
-  margin-right: auto;
-  margin-left: auto;
-}
-@media (min-width: 768px) {
-  .containersix {
-    width: 750px;
-  }
-}
-@media (min-width: 992px) {
-  .containersix {
-    width: 970px;
-  }
-}
-@media (min-width: 1200px) {
-  .containersix {
-    width: 1170px;
-  }
-}
-.containersix-fluid {
-  padding-right: 15px;
-  padding-left: 15px;
-  margin-right: auto;
-  margin-left: auto;
-}
