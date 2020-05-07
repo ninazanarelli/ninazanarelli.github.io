@@ -694,3 +694,13 @@ body {
     -webkit-tap-highlight-color: $theme-dark;
 }
 
+//projectsix
+
+.projectsix {
+    position: relative;
+    width: 100%;
+    min-height: auto;
+    @include background-cover;
+    background-position: center;
+    background-image: url('../img/photography/image1.jpg');
+}
