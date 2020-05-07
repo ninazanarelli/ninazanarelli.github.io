@@ -6567,14 +6567,10 @@ button.close {
 
 
 .containersix {
-  padding-top: 10px;
-  padding-bottom: 0px;
   padding-right: 15px;
   padding-left: 15px;
   margin-right: auto;
   margin-left: auto;
-  margin-top: auto;
-  margin-bottom: auto;
 }
 @media (min-width: 768px) {
   .containersix {
