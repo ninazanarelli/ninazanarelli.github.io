@@ -700,7 +700,6 @@ body {
     position: relative;
     width: 100%;
     min-height: auto;
-    @include background-cover;
-    background-position: center;
-    background-image: url('../img/photography/image1.jpg');
+    image-orientation: center;
+    range: url('../img/photography/image1.jpg');
 }
