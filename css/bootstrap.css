@@ -6633,7 +6633,7 @@ button.close {
   color: white;
 }
 
-.row:after {
+.row_slideshow:after {
   content: "";
   display: table;
   clear: both;
