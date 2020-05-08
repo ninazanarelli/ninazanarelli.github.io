@@ -717,7 +717,7 @@ body {
     min-height: auto;
     @include background-cover;
     background-position: center;
-    background-image: url('../img/headersix.jpg');
+    background-image: url('../img/photography/image1.jpg');
     text-align: center;
     color: white;
     .header-content {
@@ -739,7 +739,7 @@ body {
                 font-weight: 300;
                 color: rgba(white, .7);
                 font-size: 16px;
-                margin-bottom: 50px;
+                margin-bottom: 80px;
             }
         }
     }
@@ -759,8 +759,7 @@ body {
                 p {
                     font-size: 18px;
                     max-width: 80%;
-                    margin-left: auto;
-                    margin-right: auto;
+                    margin-right: 5%;
                 }
             }
         }
