@@ -717,7 +717,7 @@ body {
     min-height: auto;
     @include background-cover;
     background-position: center;
-    background-image: url('../img/photography/image1.jpg');
+    background-image: url('../img/headersix.jpg');
     text-align: center;
     color: white;
     .header-content {
@@ -725,21 +725,42 @@ body {
         text-align: center;
         padding: 100px 15px 100px;
         width: 100%;
-        .numbertext {
-            color: #f2f2f2;
-            font-size: 12px;
-            padding: 8px 12px;
+        .header-content-inner {
+            h1 {
+                font-weight: 700;
+                text-transform: uppercase;
+                margin-top: 0;
+                margin-bottom: 0;
+            }
+            hr {
+                margin: 30px auto;
+            }
+            p {
+                font-weight: 300;
+                color: rgba(white, .7);
+                font-size: 16px;
+                margin-bottom: 50px;
+            }
+        }
+    }
+    @media (min-width: 768px) {
+        min-height: 100%;
+        .header-content {
             position: absolute;
-            top: 0; 
-            @media (min-width: 768) {
-                min-height: 100%;
-                .header-content {
-                    position: absolute;
-                    top: 50%;
-                    -webkit-transform: translateY(-50%);
-                    -ms-transform: translateY(-50%);
-                    transform: translateY(-50%);
-                    padding: 0 50px;
+            top: 50%;
+            -webkit-transform: translateY(-50%);
+            -ms-transform: translateY(-50%);
+            transform: translateY(-50%);
+            padding: 0 50px;
+            .header-content-inner {
+                max-width: 1000px;
+                margin-left: auto;
+                margin-right: auto;
+                p {
+                    font-size: 18px;
+                    max-width: 80%;
+                    margin-left: auto;
+                    margin-right: auto;
                 }
             }
         }
