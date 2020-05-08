@@ -705,3 +705,35 @@ body {
         min-height: 100%;  
     }
 }
+
+
+
+
+//slideshow
+
+.gallerysix1 {
+    position: relative;
+    width: 100%;
+    min-height: auto;
+    @include background-cover;
+    background-position: center;
+    background-image: url('../img/photography/image1.jpg');
+    text-align: center;
+    color: white;
+    .header-content {
+        position: relative;
+        text-align: center;
+        padding: 100px 15px 100px;
+        width: 100%;
+        .numbertext {
+            color: #f2f2f2;
+            font-size: 12px;
+            padding: 8px 12px;
+            position: absolute;
+            top: 0; 
+            @media (min-width: 768) {
+                min-height: 100%;
+            }
+        }
+    }
+}
