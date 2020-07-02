@@ -701,7 +701,7 @@ body {
     position: relative;
     width: 100%;
     min-height: auto;
-    @media (min-width: 500px) {
+    @media (min-width: 768px) {
         min-height: 100%;  
     }
 }
