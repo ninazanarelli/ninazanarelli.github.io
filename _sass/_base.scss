@@ -699,9 +699,9 @@ body {
 .projectsix {
     padding-top: 5%;
     position: relative;
-    width: 80%;
+    width: 100%;
     min-height: auto;
-    @media (min-width: 768px) {
+    @media (min-width: 500px) {
         min-height: 100%;  
     }
 }
